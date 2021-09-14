@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+::root{
+    --Soft_violet: hsl(277, 64%, 61%);
+}
+body{
+  font-family: "Inter"; 
+  background-color:hsl(233, 47%, 7%) ;
+  
+  
+}
+h1{
+    color: hsl(0, 0%, 100%);
+}
+.title{
+    font-weight: 700;
+    font-family: 'Inter';
+}
+.firstpara{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family:"Lexend Deca";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.flatten{
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family:"Lexend Deca";
+}
+.leftcard{
+    background-color: hsl(244, 38%, 16%);
+    padding: 50px 20px;
+    height: 250px; 
+    width: 350px;
+    border-radius: 7px 0 0 7px;
+
+}
+.fullcard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 350px;
+    margin-top:10%;
+}
+.superscript{
+    font-family: "Inter";
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+.subscript{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+img{
+    height: 100%;
+    border-radius:0 7px 7px 0;
+} 
+#overlay{
+    background-color:hsl(277, 64%, 61%) ;
+    background-blend-mode: multiply;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+    margin-top: -354px;
+    border-radius:0 7px 7px 0;
+}
+
+
